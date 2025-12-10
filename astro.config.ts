@@ -19,8 +19,9 @@ import { pluginLineNumbers } from '@expressive-code/plugin-line-numbers'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  site: 'https://0541.tinystudioo.com',
-  base: '/0541-magz/',
+  // site: 'https://0541.tinystudioo.com',
+  // base: '/0541-magz/',
+  site: 'http://localhost:1234',
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],

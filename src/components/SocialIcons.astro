@@ -25,8 +25,7 @@ const { links } = Astro.props
         >
           <Icon
             name={
-              ICON_MAP[label as keyof typeof ICON_MAP] ||
-              'lucide:message-circle-question'
+              ICON_MAP[label as keyof typeof ICON_MAP] || 'lucide:instagram'
             }
             class="size-4"
           />

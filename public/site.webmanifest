@@ -1,21 +1,26 @@
 {
-  "name": "astro-erudite",
-  "short_name": "astro-erudite",
+  "name": "0541 Magazine",
+  "short_name": "0541",
+  "lang": "en-US",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "description": "A magazine-style site built with Astro",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#000000",
-  "display": "standalone"
+  ]
 }
