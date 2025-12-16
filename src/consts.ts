@@ -2,7 +2,7 @@ import type { IconMap, SocialLink, Site } from '@/types'
 import { Inspect } from 'lucide-react'
 
 export const SITE: Site = {
-  title: '0541-magazine',
+  title: '0541 Magazine',
   description:
     '0541 Magazine adalah media musik yang hadir untuk mengangkat cerita, talenta, dan karya dari berbagai penjuru',
   href: 'https://0541.tinystudioo.com',
