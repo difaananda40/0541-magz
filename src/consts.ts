@@ -1,4 +1,5 @@
 import type { IconMap, SocialLink, Site } from '@/types'
+import { Inspect } from 'lucide-react'
 
 export const SITE: Site = {
   title: '0541-magazine',
@@ -44,6 +45,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const ICON_MAP: IconMap = {
   Website: 'lucide:globe',
   GitHub: 'lucide:github',
+  Instagram: 'lucide:instagram',
   LinkedIn: 'lucide:linkedin',
   Twitter: 'lucide:twitter',
   Email: 'lucide:mail',
