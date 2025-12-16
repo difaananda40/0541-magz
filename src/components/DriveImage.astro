@@ -1,0 +1,17 @@
+---
+const { src, alt = '', width = 1200, lazy = true } = Astro.props
+
+const match = src.match(/\/d\/([^/]+)/)
+const fileId = match?.[1]
+
+const imageUrl = fileId
+  ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w${width}`
+  : src
+---
+
+<img
+  src={imageUrl}
+  alt={alt}
+  loading={lazy ? 'lazy' : 'eager'}
+  style="max-width:100%;height:auto"
+/>
