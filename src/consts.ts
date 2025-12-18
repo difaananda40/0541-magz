@@ -1,5 +1,4 @@
 import type { IconMap, SocialLink, Site } from '@/types'
-import { Inspect } from 'lucide-react'
 
 export const SITE: Site = {
   title: '0541 Magazine',
@@ -8,8 +7,8 @@ export const SITE: Site = {
   href: 'https://0541.tinystudioo.com',
   author: 'difaananda40',
   locale: 'en-US',
-  featuredPostCount: 2,
-  postsPerPage: 3,
+  featuredPostCount: 3,
+  postsPerPage: 2,
 }
 
 export const NAV_LINKS: SocialLink[] = [
